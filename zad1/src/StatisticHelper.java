@@ -23,4 +23,14 @@ public class StatisticHelper {
         System.out.println("there is no median because there are no elements");
         return 0;
     }
+    public int CalculateMax(int[] numbers){
+        if (numbers.length != 0){
+            int maxNum = numbers[0];
+            for (int i = 1; i < numbers.length; ++i){
+                Math.max(numbers[i],maxNum);
+            }
+            return maxNum;
+        }
+        return 0;
+    }
 }
