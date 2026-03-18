@@ -33,4 +33,9 @@ public class StatisticHelper {
         }
         return 0;
     }
+    public static int CalculateMin(int[] numbers){
+        //TODO
+        return 0;
+    }
+
 }
