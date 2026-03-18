@@ -19,7 +19,6 @@ public class Main {
         }
         int[] test = {2,4,6,1,9,5,7,8};
         System.out.println("Test array: " + Arrays.toString(test));
-        System.out.println("the average of test array equals: " + StatisticHelper.calcAvg(test));
         System.out.println("the median of test array equals: " + StatisticHelper.calcMedian(test));
     }
 }
