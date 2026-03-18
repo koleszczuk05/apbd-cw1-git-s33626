@@ -34,7 +34,13 @@ public class StatisticHelper {
         return 0;
     }
     public static int CalculateMin(int[] numbers){
-        //TODO
+        if (numbers.length != 0){
+            int minNum = numbers[0];
+            for (int i = 1; i < numbers.length; ++i){
+                Math.min(numbers[i],minNum);
+            }
+            return minNum;
+        }
         return 0;
     }
 
